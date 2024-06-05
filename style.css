@@ -147,10 +147,10 @@ nav{
 
 @keyframes anime1 {
     from{
-        transform: translate(48%, 0%);
+        transform: translate(55%, -3%);
     }
     to{
-        transform: translate(10%, 15%);
+        transform: translate(0%, 10%);
     }
 }
 @keyframes anime2 {
@@ -158,6 +158,6 @@ nav{
         transform: translate(5%, -5%);
     }
     to{
-        transform: translate(40%, 20%);
+        transform: translate(-20%, 20%);
     }
 }
