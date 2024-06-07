@@ -285,3 +285,45 @@ nav{
     width: 100%;
     background-color: #C1BCB6;
 }
+
+/**/
+.elem{
+    height: 20vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: relative;
+    overflow: hidden;
+    font-family: neu;
+    z-index: 9;
+    margin-top: 0;
+}
+#el{
+    margin-top: 11vh;
+}
+.elem h2{
+    font-size: 4vw;
+    z-index: 9;
+}
+.case1{
+    z-index: 9;
+    font-size: 1vw;
+    font-family: neu-little;
+}
+.elem .overlay{
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+    position: absolute ;
+    left: 0;
+    top: -100%;
+    transition: 0.5s ease;
+
+}
+.elem:hover .overlay{
+    top: 0%;
+}
