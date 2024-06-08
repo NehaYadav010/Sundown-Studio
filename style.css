@@ -303,7 +303,7 @@ nav{
     top: 2vw;
     left: 2vw;
 }
-/**/
+/*Elements*/
 .elem{
     height: 20vh;
     width: 100%;
@@ -353,3 +353,14 @@ nav{
     top: 0%;
     
 }
+#fixed-image{
+    height: 31vw;
+    width: 26vw;
+    z-index: 99;
+    position: fixed;
+    border-radius: 20px;
+    top: 16%;
+    left: 52%;
+    background-color: red;
+}
+
