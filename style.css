@@ -362,6 +362,8 @@ nav{
     top: 15%;
     left: 52%;
     display: none;
+    background-size: cover;
+    background-position: center;
     background-color: red;
 }
 
