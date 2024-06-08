@@ -359,8 +359,16 @@ nav{
     z-index: 99;
     position: fixed;
     border-radius: 20px;
-    top: 16%;
+    top: 15%;
     left: 52%;
+    display: none;
     background-color: red;
 }
 
+#part4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(225, 102, 102);
+    margin-top: 2px sloid #EFEAE3;
+    /* margin-top: 2px solid #; */
+}
