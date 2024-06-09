@@ -21,3 +21,14 @@ elems.forEach(function(e){
         fixedc.style.backgroundImage = `url(${image})`
     })
 })
+
+// SWIPPER SCRIPT
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

@@ -374,14 +374,14 @@ nav{
 }
 
 #part4{
-    min-height: 100vh;
+    height: 60vh;
     width: 100%;
     background-color: rgb(225, 102, 102);
     margin-top: 2px sloid #EFEAE3;
     /* margin-top: 2px solid #; */
 }
 #part5{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     /* background-color: rgb(176, 77, 77); */
 }
@@ -393,44 +393,28 @@ nav{
     height: 100vh;
     width: 100%;
     font-family: neu;
-    background-color: rgb(99, 99, 173);
+    /* background-color: rgb(99, 99, 173); */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 #footer h1{
-    font-size: 52.5vh;
+    font-size: 23vw;
     padding-left:2vw;
     padding-right:2vw;
 }
-#footer-elem{
-    background-color: rgba(255, 0, 0, 0.593);
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    height: 25vh;
-    padding: 0.8vh 5vw;
-    justify-content: space-between;
-}
 #footer-top{
-    background-color: rgba(0, 255, 8, 0.593);
-    font-size: 1.5vw;
-}
-#footer-top-right{
-    background-color: rgba(0, 174, 255, 0.593);
-    width: 27vw;
-}
-#footer-top-right input{
-    /* background-color: rgba(0, 174, 255, 0.593); */
-    margin-top: 3.5vh;
-    width: 27vw;
-    height: 5vh;
+    height: 20vh;
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 2%;
 }
 
 #footer-bottom{
-    /* background-color: green; */
+    background-color: green;
     display: flex;
-    padding: 3vh 0;
+    padding: 1.2vw 0;
     justify-content: space-between;
     border-top: 2px solid black;
     margin-left: 2vw;
@@ -439,3 +423,39 @@ nav{
 #footer-bottom h4{
 font-size: 1.7vw;
 }
+
+/*SWIPPER CODE*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 60%;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 40%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 20%;
+  }
+
+  /*SWIPPER END*/
