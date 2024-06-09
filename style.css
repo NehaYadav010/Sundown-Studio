@@ -378,7 +378,8 @@ nav{
     width: 100%;
     background-color: rgb(225, 102, 102);
     margin-top: 2px sloid #EFEAE3;
-    /* margin-top: 2px solid #; */
+    padding: 5vw 2vw;
+    background-color:#EFEAE3 ;
 }
 #part5{
     height: 100vh;
@@ -432,30 +433,10 @@ font-size: 1.7vw;
 
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 17px;
+    border-left: 1px solid #BFBBB6;
+    width: 30%;
+    padding: 0 1vw;
+    text-align: left;
   }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .swiper-slide {
-    width: 60%;
-  }
-
-  .swiper-slide:nth-child(2n) {
-    width: 40%;
-  }
-
-  .swiper-slide:nth-child(3n) {
-    width: 20%;
-  }
-
   /*SWIPPER END*/
