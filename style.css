@@ -370,16 +370,34 @@ nav{
     display: none;
     background-size: cover;
     background-position: center;
-    background-color: red;
+    /* background-color: red; */
 }
 
 #part4{
     height: 60vh;
     width: 100%;
-    background-color: rgb(225, 102, 102);
+    /* background-color: rgb(225, 102, 102); */
     margin-top: 2px sloid #EFEAE3;
     padding: 5vw 2vw;
+    font-family: neu-little;
+    position: relative;
     background-color:#EFEAE3 ;
+}
+#part4 h5{
+    padding-left: 1vw;
+    font-size: 0.9vw;
+    position: absolute;
+    top: 1vw;
+    left: 5vw;
+}
+#gola1{
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 1vw;
+    left: 4vw;
+    background-color: #FE320A;
 }
 #part5{
     height: 100vh;
@@ -407,13 +425,13 @@ nav{
 #footer-top{
     height: 20vh;
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     position: absolute;
     top: 2%;
 }
 
 #footer-bottom{
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     padding: 1.2vw 0;
     justify-content: space-between;
