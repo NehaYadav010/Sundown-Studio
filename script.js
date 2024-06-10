@@ -39,5 +39,11 @@ swiperAnimation();
 page3Animation();
 
 // LOADER ANIMATION
-
-
+function loadingAnimation(){
+    
+    var loader = document.querySelector("#loader")
+    setTimeout(function(){
+        loader.style.top =  "-100%"
+    },3200)
+}
+loadingAnimation();
