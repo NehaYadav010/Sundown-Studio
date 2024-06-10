@@ -1,3 +1,4 @@
+// LOCOMOTIVE JS
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
@@ -36,3 +37,7 @@ function swiperAnimation(){
 }
 swiperAnimation();
 page3Animation();
+
+// LOADER ANIMATION
+
+

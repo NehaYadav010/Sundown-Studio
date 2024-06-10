@@ -470,3 +470,18 @@ font-size: 1.7vw;
     text-align: left;
   }
   /*SWIPPER END*/
+
+  /*LOADER START*/
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 999;
+}
+
+
+
+
+
+  /*LOADER END*/
